@@ -19,7 +19,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
+    
+    
+    @IBAction func exportResponse(_ sender: Any) {
+        if let rVC = NSApp.mainWindow?.contentViewController as? RequestViewController {
+            print(rVC.responseTextView.string)
+        }
+    }
+    
+    
 
 }
 

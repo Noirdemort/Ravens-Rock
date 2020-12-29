@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5C2FC1B225982B1500854F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B125982B1500854F06 /* AppDelegate.swift */; };
-		5C2FC1B425982B1500854F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B325982B1500854F06 /* ViewController.swift */; };
-		5C2FC1B625982B1500854F06 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B525982B1500854F06 /* Document.swift */; };
+		5C2FC1B425982B1500854F06 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B325982B1500854F06 /* RequestViewController.swift */; };
+		5C2FC1B625982B1500854F06 /* SGRequestDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B525982B1500854F06 /* SGRequestDocument.swift */; };
 		5C2FC1B825982B1600854F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B725982B1600854F06 /* Assets.xcassets */; };
 		5C2FC1BB25982B1600854F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2FC1B925982B1600854F06 /* Main.storyboard */; };
 		5C2FC1C725982B1600854F06 /* Ravens_RockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FC1C625982B1600854F06 /* Ravens_RockTests.swift */; };
@@ -36,8 +36,8 @@
 /* Begin PBXFileReference section */
 		5C2FC1AE25982B1500854F06 /* Ravens Rock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravens Rock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2FC1B125982B1500854F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C2FC1B325982B1500854F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C2FC1B525982B1500854F06 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		5C2FC1B325982B1500854F06 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		5C2FC1B525982B1500854F06 /* SGRequestDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGRequestDocument.swift; sourceTree = "<group>"; };
 		5C2FC1B725982B1600854F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C2FC1BA25982B1600854F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C2FC1BC25982B1600854F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				5C2FC1B125982B1500854F06 /* AppDelegate.swift */,
-				5C2FC1B325982B1500854F06 /* ViewController.swift */,
-				5C2FC1B525982B1500854F06 /* Document.swift */,
+				5C2FC1B325982B1500854F06 /* RequestViewController.swift */,
+				5C2FC1B525982B1500854F06 /* SGRequestDocument.swift */,
 				5C2FC1B725982B1600854F06 /* Assets.xcassets */,
 				5C2FC1B925982B1600854F06 /* Main.storyboard */,
 				5C2FC1BC25982B1600854F06 /* Info.plist */,
@@ -256,9 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C2FC1B425982B1500854F06 /* ViewController.swift in Sources */,
+				5C2FC1B425982B1500854F06 /* RequestViewController.swift in Sources */,
 				5C2FC1B225982B1500854F06 /* AppDelegate.swift in Sources */,
-				5C2FC1B625982B1500854F06 /* Document.swift in Sources */,
+				5C2FC1B625982B1500854F06 /* SGRequestDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
